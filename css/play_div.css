@@ -1,0 +1,36 @@
+.long_play_btns{
+    height: 100px;
+    width: 800px;
+    border: 4px solid #313131;
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+}
+.long_play_btns:hover{background-color: rgb(158, 158, 158);border-color: #ffffff;}
+.long_play_btns:active{background-color: rgb(175, 175, 175);border-color: #ffffff;}
+.short_play_btns{
+    height: 100px;
+    width: 382px;
+    border: 4px solid #313131;
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+    float: left;
+}
+.short_play_btns:hover{background-color: rgb(158, 158, 158);border-color: #ffffff;}
+.short_play_btns:active{background-color: rgb(175, 175, 175);border-color: #ffffff;}
+.mini_play_btns{
+    height: 100px;
+    width: 100px;
+    border: 4px solid #313131;
+    background-color: rgb(148, 148, 148);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+.mini_play_btns:hover{background-color: rgb(158, 158, 158);border-color: #ffffff;}
+.mini_play_btns:active{background-color: rgb(175, 175, 175);border-color: #ffffff;}
+.space_div{
+    height: 100px;
+    width: 24px;
+    float: left;
+}

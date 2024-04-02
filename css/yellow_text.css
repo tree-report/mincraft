@@ -1,0 +1,18 @@
+.yellow_text{
+    transform: rotate(-20deg);
+    color: #ffff00;
+    font-family: minecraft-font;
+    font-size: 40px;
+    text-shadow: 3px 3px 0.7px #171717;
+    position: absolute;
+    top: 90px;
+    left: 750px;
+    z-index: 1;
+    animation:yellow_text_cartoon 2s infinite;
+    animation-timing-function: linear;
+}
+@keyframes yellow_text_cartoon{
+    0%  {font-size: 40px;}
+    50% {font-size: 45px;}
+    100%{font-size: 40px;}
+}
